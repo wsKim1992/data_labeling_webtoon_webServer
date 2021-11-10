@@ -1,0 +1,43 @@
+{
+  "name": "webtton_data_label_ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "author": "david",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.22.0",
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "biguint-format": "^1.0.2",
+    "child-process": "^1.0.2",
+    "child_process": "^1.0.2",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "http-proxy-middleware": "^2.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mime-types": "^2.1.32",
+    "mongoose": "^6.0.3",
+    "multer": "^1.4.3",
+    "node-schedule": "^2.0.0",
+    "nodemailer": "^6.7.0",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "npm": "^7.24.1",
+    "passport": "^0.5.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "session-file-store": "^1.5.0",
+    "url-parse": "^1.5.3",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}

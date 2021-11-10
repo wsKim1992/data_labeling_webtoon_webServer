@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <h3>윽석이 코로나 2차 맞았노?</h3>
+    <form id="logout" method="POST" action="/user/logout">
+        <button id="btn" type="submit">로그아웃</button>
+    </form>
+</body>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script type="text/javascript">
+    window.onload=(e)=>{
+        
+    }
+    document.querySelector("#btn").addEventListener('click',(e)=>{
+        e.preventDefault();
+        console.log(document.cookie);
+        //const headerOption = {authorization:}
+
+    })
+</script>
+</html>
